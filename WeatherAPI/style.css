@@ -17,15 +17,11 @@ body{
     padding: 30px 25px;
     text-align: center;
 }
-.time{
-    margin: 10px;
-
-}
 .search{
     width:100%;
     display: flex;
     align-items:center;
-    justify-content: center;
+    justify-content: space-between;
 
 }
 .search input{
@@ -45,8 +41,8 @@ body{
     border: 0;
     outline: 0;
     background:#ebfffc;
-    border-radius:99%;
-    width: 12%;
+    border-radius:50%;
+    width: 60px;
     cursor: pointer;
 }
 .search button img{
@@ -97,5 +93,7 @@ body{
 text-align: left;
 margin-left: 10px;
 margin-top: 10px;
+font-size: 14px;
 display: none;
 }
+
