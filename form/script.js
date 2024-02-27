@@ -15,7 +15,7 @@ function validateName() {
         nameError.innerHTML = 'Write full name';
         return false;
     }
-    nameError.innerHTML = '☑';
+    nameError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
     return true;
 
 }
@@ -35,7 +35,7 @@ function validatePhone() {
         phoneError.innerHTML ='Only digits please';
         return false;
     }
-    phoneError.innerHTML = '☑' ;
+    phoneError.innerHTML = '<i class="fa-solid fa-circle-check"></i>' ;
     return true;
 }
 
@@ -49,7 +49,7 @@ function validateEmail() {
         emailError.innerHTML ='Email Invalid';
         return false;
     }
-    emailError.innerHTML = '☑' ;
+    emailError.innerHTML = '<i class="fa-solid fa-circle-check"></i>' ;
     return true;
 }
 
@@ -62,7 +62,7 @@ function validateMessage() {
     return false;
    }
 
-    messageError.innerHTML = '☑' ;
+    messageError.innerHTML = '<i class="fa-solid fa-circle-check"></i>' ;
     return true;
 }
 

@@ -93,6 +93,6 @@ form button{
 #submit-error{
     color: red;
 }
-.input-group span {
+.input-group span i{
     color: seagreen;
 }
